@@ -1,12 +1,13 @@
 const FILES_TO_CACHE = [
     '/',
-    '/public/index.html',
-    '/public/index.js',
-    '/public/style.css',
-    '/public/icons/icon-192x192.png',
-    '/public/icons/icon-512x512.png',
+    '/index.html',
+    '/index.js',
+    '/styles.css',
+    '/icons/icon-192x192.png',
+    '/icons/icon-512x512.png',
     'https://fonts.googleapis.com/css?family=Istok+Web|Montserrat:800&display=swap',
     'https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css',
+    "/manifest.webmanifest"
   ];
   
   const PRECACHE = 'precache-v1';
